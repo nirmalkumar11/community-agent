@@ -15,9 +15,9 @@ st.caption(
 
 
 st.caption(
-    "Example questions"
-    "Who knows ML"
-    "Find rag spealist"
+    "Example questions:\n"
+    "1. Who knows ML\n"
+    "2. Find rag spealist\n"
 )
 
 query = st.text_input(
