@@ -18,15 +18,10 @@ query = st.text_input(
     placeholder="Who should lead the AI Workshop?"
 )
 
-# if st.button("Get Recommendation"):
-#     with st.spinner("Analyzing members..."):
-#         result = run(query)
-
-
 
 if st.button("Submit"):
     try:
-        print("User Query:", query)
+        print("User Query:", query, end=' ')
 
         result = run(query)
 
@@ -41,5 +36,3 @@ if st.button("Submit"):
         st.error(str(e))
         st.code(traceback.format_exc())
 
-    st.success("Recommendation Generated")
-    st.markdown(result)
