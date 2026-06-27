@@ -1,0 +1,99 @@
+# Club Management Knowledge Base
+
+## AI Lead
+
+Responsibilities:
+
+* Lead AI and Machine Learning initiatives
+* Conduct AI workshops and training sessions
+* Mentor junior members
+* Guide hackathon teams
+* Review AI projects
+
+Required Skills:
+
+* Python
+* Machine Learning
+* Deep Learning
+* LLMs
+* RAG
+* LangChain
+* Leadership
+* Communication
+
+---
+
+## Technical Lead
+
+Responsibilities:
+
+* Manage technical projects
+* Review code quality
+* Conduct technical interviews
+* Support development teams
+
+Required Skills:
+
+* Programming
+* System Design
+* GitHub
+* Team Management
+
+---
+
+## Event Coordinator
+
+Responsibilities:
+
+* Organize club events
+* Manage registrations
+* Coordinate volunteers
+* Track event success
+
+Required Skills:
+
+* Communication
+* Planning
+* Leadership
+
+---
+
+## Hackathon Mentor
+
+Responsibilities:
+
+* Help teams solve technical issues
+* Guide project architecture
+* Review project ideas
+* Support final presentations
+
+Required Skills:
+
+* AI
+* Machine Learning
+* Python
+* Problem Solving
+* Public Speaking
+
+---
+
+## Member Selection Rules
+
+1. Prefer members with relevant skills.
+2. Prefer members with previous event participation.
+3. Prefer members with leadership experience.
+4. Prefer members with hackathon achievements.
+5. Prefer active members over inactive members.
+
+---
+
+## Recommendation Criteria
+
+Score Members Based On:
+
+* Skills Match (40%)
+* Leadership (20%)
+* Participation (20%)
+* Achievements (20%)
+
+Highest score should be recommended.

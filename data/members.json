@@ -1,0 +1,181 @@
+[{
+        "id": 1,
+        "name": "Nirmalkumar",
+        "role": "AI Lead",
+        "skills": ["Python", "Machine Learning", "Google ADK"],
+        "achievements": ["Won AI Hackathon"],
+        "participation": ["AI Workshop", "Hackathon 2026"],
+        "responsibilities": ["Mentoring", "Event Planning"]
+    },
+    {
+        "id": 2,
+        "name": "Priya Sharma",
+        "role": "Technical Lead",
+        "skills": ["Deep Learning", "Computer Vision"],
+        "achievements": ["Published Research Paper"],
+        "participation": ["Vision Bootcamp"],
+        "responsibilities": ["Training"]
+    },
+    {
+        "id": 3,
+        "name": "Arjun Kumar",
+        "role": "Backend Developer",
+        "skills": ["Node.js", "Express", "MongoDB"],
+        "achievements": ["Built Scalable API"],
+        "participation": ["Dev Summit"],
+        "responsibilities": ["API Development"]
+    },
+    {
+        "id": 4,
+        "name": "Meena Raj",
+        "role": "Frontend Developer",
+        "skills": ["React", "JavaScript", "CSS"],
+        "achievements": ["Best UI Award"],
+        "participation": ["React Workshop"],
+        "responsibilities": ["UI Development"]
+    },
+    {
+        "id": 5,
+        "name": "Karthik S",
+        "role": "ML Engineer",
+        "skills": ["TensorFlow", "PyTorch"],
+        "achievements": ["Model Optimization"],
+        "participation": ["ML Bootcamp"],
+        "responsibilities": ["Model Training"]
+    },
+    {
+        "id": 6,
+        "name": "Divya Nair",
+        "role": "Designer",
+        "skills": ["Figma", "UI Design"],
+        "achievements": ["Design Excellence"],
+        "participation": ["Design Sprint"],
+        "responsibilities": ["UX Research"]
+    },
+    {
+        "id": 7,
+        "name": "Rahul Verma",
+        "role": "Data Scientist",
+        "skills": ["Python", "Pandas", "SQL"],
+        "achievements": ["Analytics Dashboard"],
+        "participation": ["Data Camp"],
+        "responsibilities": ["Data Analysis"]
+    },
+    {
+        "id": 8,
+        "name": "Sneha Iyer",
+        "role": "Cloud Engineer",
+        "skills": ["AWS", "Docker"],
+        "achievements": ["Cloud Migration"],
+        "participation": ["AWS Community Day"],
+        "responsibilities": ["Infrastructure"]
+    },
+    {
+        "id": 9,
+        "name": "Vignesh P",
+        "role": "AI Engineer",
+        "skills": ["LLMs", "RAG", "LangChain"],
+        "achievements": ["Chatbot Development"],
+        "participation": ["AI Conference"],
+        "responsibilities": ["AI Solutions"]
+    },
+    {
+        "id": 10,
+        "name": "Ananya Rao",
+        "role": "Project Manager",
+        "skills": ["Agile", "Scrum"],
+        "achievements": ["Delivered 5 Projects"],
+        "participation": ["PM Summit"],
+        "responsibilities": ["Team Coordination"]
+    },
+    {
+        "id": 11,
+        "name": "Harish Kumar",
+        "role": "Backend Developer",
+        "skills": ["Java", "Spring Boot"],
+        "achievements": ["Microservices Design"],
+        "participation": ["Java Day"],
+        "responsibilities": ["Backend Systems"]
+    },
+    {
+        "id": 12,
+        "name": "Keerthana M",
+        "role": "Frontend Developer",
+        "skills": ["Vue.js", "JavaScript"],
+        "achievements": ["Responsive Dashboard"],
+        "participation": ["Frontend Fest"],
+        "responsibilities": ["Web Development"]
+    },
+    {
+        "id": 13,
+        "name": "Rakesh Babu",
+        "role": "Data Analyst",
+        "skills": ["Excel", "Power BI"],
+        "achievements": ["Business Insights"],
+        "participation": ["Analytics Meetup"],
+        "responsibilities": ["Reporting"]
+    },
+    {
+        "id": 14,
+        "name": "Lakshmi Devi",
+        "role": "AI Researcher",
+        "skills": ["NLP", "Transformers"],
+        "achievements": ["Research Publication"],
+        "participation": ["AI Research Forum"],
+        "responsibilities": ["Research"]
+    },
+    {
+        "id": 15,
+        "name": "Sanjay Patel",
+        "role": "DevOps Engineer",
+        "skills": ["Kubernetes", "Docker"],
+        "achievements": ["CI/CD Automation"],
+        "participation": ["DevOps Days"],
+        "responsibilities": ["Deployment"]
+    },
+    {
+        "id": 16,
+        "name": "Pooja Singh",
+        "role": "QA Engineer",
+        "skills": ["Selenium", "Testing"],
+        "achievements": ["Zero Critical Bugs"],
+        "participation": ["Testing Conference"],
+        "responsibilities": ["Quality Assurance"]
+    },
+    {
+        "id": 17,
+        "name": "Manoj Krishnan",
+        "role": "Full Stack Developer",
+        "skills": ["React", "Node.js"],
+        "achievements": ["Built SaaS Platform"],
+        "participation": ["Full Stack Meetup"],
+        "responsibilities": ["Application Development"]
+    },
+    {
+        "id": 18,
+        "name": "Aishwarya R",
+        "role": "Designer",
+        "skills": ["Illustrator", "Photoshop"],
+        "achievements": ["Brand Redesign"],
+        "participation": ["Creative Workshop"],
+        "responsibilities": ["Branding"]
+    },
+    {
+        "id": 19,
+        "name": "Gokul Anand",
+        "role": "AI Engineer",
+        "skills": ["PyTorch", "Computer Vision"],
+        "achievements": ["Object Detection System"],
+        "participation": ["Vision Summit"],
+        "responsibilities": ["Model Deployment"]
+    },
+    {
+        "id": 20,
+        "name": "Mohan Raj",
+        "role": "Technical Lead",
+        "skills": ["System Design", "Python"],
+        "achievements": ["Architecture Award"],
+        "participation": ["Tech Leadership Meet"],
+        "responsibilities": ["Technical Decisions"]
+    }
+]

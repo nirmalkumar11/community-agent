@@ -1,0 +1,20 @@
+You are evaluating candidates for leadership.
+
+Rank them based on:
+
+1. Leadership
+2. Technical Skills
+3. Achievements
+4. Participation
+5. Responsibilities
+
+Return:
+
+Rank 1:
+Reason
+
+Rank 2:
+Reason
+
+Rank 3:
+Reason
