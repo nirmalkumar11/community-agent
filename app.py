@@ -1,72 +1,45 @@
-# # app.py
-
-# from qdrant.search_members import search_members
-
-# from google import genai
-# from dotenv import load_dotenv
-# import os
-
-# load_dotenv()
-
-# client = genai.Client(
-#     api_key=os.getenv("GOOGLE_API_KEY")
-# )
-
-# query = input("Ask: ")
-
-# members = search_members(query)
-
-# prompt = f"""
-# Question:
-# {query}
-
-# Candidates:
-# {members}
-
-# Rank the candidates.
-
-# Evaluate:
-# 1. Leadership
-# 2. Technical Skills
-# 3. Achievements
-# 4. Participation
-# 5. Responsibilities
-
-# Provide:
-# - Rank
-# - Candidate Name
-# - Reason
-# """
-
-# response = client.models.generate_content(
-#     model="gemini-2.5-flash",
-#     contents=prompt
-# )
-
-# print(response.text)
-
-
-# from adk.orchestrator import run
-# from qdrant.search_members import close_client
-
-# query = input("Ask: ")
-
-# result = run(query)
-
-# print(result)
-
-# close_client()
-
-
+import streamlit as st
 from adk.orchestrator import run
+import traceback
 
-while True:
-    query = input("\nAsk: ")
+st.set_page_config(
+    page_title="ClubMind AI",
+    page_icon="🤖",
+    layout="wide"
+)
 
-    if query.lower() == "exit":
-        break
+st.title("🤖 ClubMind AI")
+st.caption(
+    "Agentic Intelligence System for Member Discovery and Leadership Recommendation"
+)
 
-    result = run(query)
+query = st.text_input(
+    "Ask a question",
+    placeholder="Who should lead the AI Workshop?"
+)
 
-    print("\n")
-    print(result)
+# if st.button("Get Recommendation"):
+#     with st.spinner("Analyzing members..."):
+#         result = run(query)
+
+
+
+if st.button("Submit"):
+    try:
+        print("User Query:", query)
+
+        result = run(query)
+
+        print("Workflow Finished")
+
+        st.write(result)
+
+    except Exception as e:
+        print("ERROR OCCURRED")
+        print(traceback.format_exc())
+
+        st.error(str(e))
+        st.code(traceback.format_exc())
+
+    st.success("Recommendation Generated")
+    st.markdown(result)
