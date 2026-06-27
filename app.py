@@ -13,6 +13,13 @@ st.caption(
     "Agentic Intelligence System for Member Discovery and Leadership Recommendation"
 )
 
+
+st.caption(
+    "Example questions"
+    "Who knows ML"
+    "Find rag spealist"
+)
+
 query = st.text_input(
     "Ask a question",
     placeholder="Who should lead the AI Workshop?"
