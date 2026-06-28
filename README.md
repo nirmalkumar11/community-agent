@@ -35,24 +35,8 @@ ClubMind AI solves this by analyzing member information and recommending the mos
 
 ## 🏗️ Architecture
 
-```text
-User Query
-    │
-    ▼
-Qdrant Vector Search
-    │
-    ▼
-Analysis Agent
-    │
-    ▼
-Recommendation Agent
-    │
-    ▼
-Summary Agent
-    │
-    ▼
-Final Recommendation
-```
+<img width="260" height="637" alt="image" src="https://github.com/user-attachments/assets/ace11cad-500d-4443-848f-bdc7bfa81c09" />
+
 
 ---
 
